@@ -8,3 +8,8 @@ It does the following stuff:
  --Receive SMS
  --Show the conversation
  --Delete a conversation and indivisual message
+ 
+ Feel free to change and upgrade
+ 
+ 
+ Author: Abhisar Mohapatra
