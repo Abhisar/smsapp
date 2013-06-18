@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#F6CEF5" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="22dp"
+        android:text="To"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="74dp"
+        android:layout_x="1dp"
+        android:layout_y="58dp"
+        android:background="@drawable/rounded_edittext_states"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter Mobile Number"
+        android:padding="5dip" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="114dp"
+        android:text="Message"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="320dip"
+        android:layout_height="150dip"
+        android:layout_marginBottom="74dp"
+        android:layout_x="-1dp"
+        android:layout_y="154dp"
+        android:background="@drawable/rounded_edittext_states"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:hint="Enter Text"
+        android:padding="5dip" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="323dp"
+        android:background="@drawable/blackbutton"
+        android:onClick="sendSms"
+        android:text="Send" />
+
+</AbsoluteLayout>
